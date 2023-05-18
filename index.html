@@ -5,23 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HOME</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- cloud cdn  -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
+
+    <!-- bootstrap local  -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="shadow-lg">
+    <nav class="shadow-lg fixed-top">
         <div class="logo">
-            <img src="Assets/img/logo/logo.png" alt="Logo Image">
+            <h1 class="pt-2">Gashaka
+                <br> Gumti
+            </h1>
+            <small>National Park</small>
+
         </div>
-        <ul class="min-link">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="music.html">MUSIC</a></li>
-            <li><a href="video.html">VIDEO</a></li>
-        </ul>
         <div class="hamburger">
             <div class="line1"></div>
             <div class="line2"></div>
@@ -29,17 +34,34 @@
         </div>
         <ul class="nav-links">
             <li><a href="index.html">HOME</a></li>
-            <li><a href="music.html">MUSIC</a></li>
-            <li><a href="video.html">VIDEOS</a></li>
-            <li><a href="album.html">ALBUM</a></li>
-            <li><a href="artists.html">ARTISTS</a></li>
-            <li><a href="news.html">NEWS</a></li>
+            <li><a href="accommodation.html">ACCOMMODATION</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="map.html">MAP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
             <li><a href="contact.html">CONTACT</a></li>
+            <a href="index.php" class="btn btn-login">Login</a>
+            <a href="index.php" class="btn btn-signup">SignUp</a>
         </ul>
     </nav>
     <!-- navbar  -->
+    <div class="pad">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active main-carousel">
+                    <img src="assets/img/Gashaka1.jpg" class="d-block w-100"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="fw-bold" style="font-size: 45px">“More than vacation, more than <br> nature”
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
 </body>
 
