@@ -3,6 +3,20 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: gray !important;
 }
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+li 
+span
+small{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
 
 nav {
     height: 9rem;
@@ -233,5 +247,12 @@ nav {
     background-color: #055D2D;
 }
 .about-container{
+    background-color: #fff;
+}
+
+.navigation-icon{
     background-color: #F1FFF8;
+}
+.navigation-icon span{
+    color: #055D2D;
 }
