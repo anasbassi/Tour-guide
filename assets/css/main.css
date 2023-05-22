@@ -224,6 +224,9 @@ nav {
     .min-link li a:hover::before {
         width: 80%;
     }
+    .main-carousel h1{
+   font-size: xx-large !important;
+    }
 }
 
 .btn-login,.btn-login:hover{
@@ -240,9 +243,6 @@ nav {
     max-height: 600px !important;
     min-height: 301px;
 }
-.main-carousel h1{
-   
-}
 .history-container{
     background-color: #055D2D;
 }
@@ -255,4 +255,24 @@ nav {
 }
 .navigation-icon span{
     color: #055D2D;
+}
+.ideal-accommodation{
+    background-color: #FBE8D2;
+}
+.ideal-accommodation h1{
+    color: #055D2D;
+}
+.accommodation-bg,.accommodation-bg:hover{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+.accommodation-bg img{
+    width: 90%;
+}
+.centered{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    /* transform: translate(-50%, -50%); */
 }
